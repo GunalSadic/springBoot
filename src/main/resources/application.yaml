@@ -1,10 +1,10 @@
 spring.profiles.active: development
 logging.level.org.springframework.cloud.kubernetes: DEBUG
-message: hello default
+message: hello my name is Gunal
 management.server.port: 8081
 ---
 spring.profiles: development
-message: hello development
+message: hello my name is gunal
 ---
 spring.profiles: kubernetes
 message: hello kubernetes
